@@ -18,8 +18,8 @@ temperature = 0.1
 top_p = 0.95
 timeout_seconds = 300
 max_retries = 1
-context_window_tokens = 128000
-max_output_tokens = 4096
+context_window_tokens = 6000
+max_output_tokens = 2000
 
 [sec]
 user_agent_name = "Your Name or Company"
