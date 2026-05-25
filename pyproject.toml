@@ -9,10 +9,17 @@ description = "SEC filing unpacking and HTML report translation CLI"
 requires-python = ">=3.10"
 dependencies = [
   "beautifulsoup4",
+  "httpx",
   "lxml",
   "openai",
-  "pydantic",
   "sec-edgar-downloader",
+  "tomli; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+dev = [
+  "Pillow",
+  "pytest>=8.0",
 ]
 
 [project.scripts]
