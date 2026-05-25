@@ -1,0 +1,49 @@
+# Python runtime/cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.ipynb
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging/build artifacts
+*.egg-info/
+build/
+dist/
+
+# Local configuration and secrets
+sec-translator.toml
+*.local.toml
+
+# Generated/downloaded SEC data and translation outputs
+downloads/
+downloads_*/
+downloads_report/
+downloads_report_unpacked/
+output/
+translation_runs/
+.sec-translator-cache/
+*_translated.htm
+*_translation_report.json
+*_translation_report.md
+*.log
+
+# Historical scratch/reference files not part of the public project
+history_version/
+doc/任务描述.txt
+doc/需求对齐记录.md
+doc/*.srt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
